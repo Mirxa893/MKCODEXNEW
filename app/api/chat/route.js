@@ -12,7 +12,7 @@ export async function POST(req) {
       "X-Title": "MK Codex Chat"
     },
     body: JSON.stringify({
-      model: "openrouter/deepseek/deepseek-chat-v3-0324",
+      model: "deepseek/deepseek-chat-v3-0324:free",
       messages: messages,
       temperature: 0.7
     })
